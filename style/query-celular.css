@@ -312,11 +312,13 @@ header{
         justify-content: center;
         align-items: center;
         gap:5px;
+        width: 80vw;
         /* border: 1px solid orangered; */
     } 
     .card-revision{
         /* border:1px solid var(--fire); */
         display:flex;
+        width: 80vw;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -332,8 +334,8 @@ header{
         width: 200px;
     }
     .card-revision img{
-        /* border:1px solid var(--fire); */
-        max-width: 200px;
+        border:1px solid var(--fire);
+        width: clamp(200px, 65%, 500px);
         padding:10px 10px;
         margin:10px 10px;
         gap:5px;
