@@ -1,0 +1,522 @@
+@media(576px < width <=992px) {
+/* -----------------------------*\ 
+|*------------Header------------*| 
+\*------------------------------*/
+
+}
+
+/* -----------------------------*\ 
+|*-------------Main-------------*| 
+\*------------------------------*/
+main {
+        display: flex;
+        gap:50px;
+        /* border: 1px solid orangered; */
+}
+
+/*============  HERO ============*/
+section#hero {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 30px;
+        height: 65vh;
+        gap:20px;
+}
+.hero-info h1{
+        font-size: 30px;
+        font-weight:800;
+        color:var(--text-white);
+}
+.hero-info p {
+        color:var(--text-gray);
+        font-size: 20px;
+        width:70%;
+        /*border: 1px solid blue;*/
+}
+
+/*------------ Hero-card -----------*/
+.hero-card{
+        padding: 20px;
+        border-radius: 15px;
+        width: 45%;
+        box-shadow: 10px 7px 100px -31px rgba(245,136,35,0.76);
+        -webkit-box-shadow: 10px 7px 100px -31px rgba(245,136,35,0.76);
+        -moz-box-shadow: 10px 7px 100px -31px rgba(245,136,35,0.76);
+}
+
+.hero-card:hover{
+        border: 1px solid rgba(245,136,35,0.76);
+}
+
+.hero-card img{
+        border-radius: 10px;
+}
+
+
+/*============  SERVICE ============*/
+section#service{
+    /* max-width: var(--max-width); */
+        padding:50px 0;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:80px;
+        /*border:1px solid orange;*/
+}
+
+/*------------ service-Title -----------*/
+#service h2 {
+        font-size: 2rem;
+        font-weight: 800;
+}
+
+/*------------ Card-Container -----------*/
+.service-cards-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+}
+
+.service-cards{
+        background: var(--secondary);
+        padding: 35px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 25px;
+        border-radius:15px;
+        width: 450px;
+        box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
+        -webkit-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
+        -moz-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
+}
+
+.service-cards:hover{
+        border: 1px solid rgba(65,179,245,0.76);
+}
+
+.service-cards img{
+        width: 50px;
+        border-radius: 40%;
+}
+
+.service-cards h3{
+        font-size: 20px;
+        font-weight: 800;
+        margin:20px;
+}
+
+.service-cards p{
+        font-size: 16px;
+        font-weight: 300;
+        color:var(--text-card);
+}
+
+/*============  PORTFOLIO ============*/
+section#portfolio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+}
+
+/*------------ Portfolio-Title -----------*/
+.section-title{
+        font-size: 1rem;
+        font-weight: 800;
+}
+
+/*------------ Filters -----------*/
+.portfolio-filter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 30px;
+        /* text-align: center; */
+        margin: 20px 0;
+        background-color: var(--secondary);
+        color:var(--text-gray);
+        border-radius: 10px;
+        width: 1200px;
+        /* border:1px solid orange; */
+}
+
+.portfolio-filter button{
+        text-transform: uppercase;
+        /* margin-top:20px;
+        outline: none; */
+        border: 1px solid;
+        border-color:#64d3ff;
+        padding: 10px 15px;
+        font-weight: 600;
+        border-radius: 10px;
+        background-color: var(--text-white);
+        /* margin: 15px; */
+        color:#404040;
+}
+
+.portfolio-filter button:hover{
+        border: 3px solid #64d3ff;
+}
+
+.portfolio .portfolio-filter button.active{
+        color:var(--bg-white);
+        background-color: var(--secondary);
+}
+
+/*------------ Portfolio-Container -----------*/
+.portfolio-items-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+        justify-items: center;
+    /* border:1px solid orange; */ 
+}
+
+/*============  EQUIPO ============*/
+section#equipo {
+    /* border: 1px solid var(--fire); */
+        max-width:80%;
+        text-align: center;
+        align-items: center;
+        font-size:1.5rem;
+        gap:5px;
+        margin-bottom: 10px;
+        width:90vw;
+}
+
+/* ---------- Equipo- info --------- */
+.equipo-info {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px
+}
+
+.equipo-info h2{
+        /*border:1px solid orange;*/
+        max-width: 1200px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        font-size: 2rem;
+        font-weight: 800;
+        color:var(--text-white);
+}
+.equipo-info img{
+        margin:20px;
+        padding: 10px;
+        border-radius:20px;
+        box-sizing: border-box;
+        max-height: 400px;
+        box-shadow: 10px 7px 100px -31px rgba(245,136,35,0.76);
+        -webkit-box-shadow: 10px 7px 100px -31px rgba(245,136,35,0.76);
+        -moz-box-shadow: 10px 7px 100px -31px rgba(245,136,35,0.76);
+}
+
+.equipo-info img:hover{
+        border: 1px solid rgba(65,179,245,0.76);
+        box-shadow: 5px 5px 9px 0px rgba(50,172,212,0.75);
+        -webkit-box-shadow: 5px 5px 9px 0px rgba(50,172,212,0.75);
+        -moz-box-shadow: 5px 5px 9px 0px rgba(50,172,212,0.75);
+}
+
+.equipo-info p{
+        max-width: 80%;
+        text-align: center;
+        font-size: 18px;
+        color:var(--text-gray);
+}
+
+
+/*============  RESEÑAS ============*/
+section#reseñas{
+    /* max-width: var(--max-width); */
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    /* border: 1px solid var(--fire); */
+}
+
+/*------------ reseña-Info -----------*/
+.info-reseñas {
+    /* border: 1px solid var(--fire); */
+        display:flex;
+        justify-content: center;
+        padding:10px;
+        max-width: 90%;
+}
+.info-reseñas h2 {
+    /* border:1px solid var(--fire); */
+        font-size: 1.5rem;
+        padding:10px;
+        font-weight: 800;
+}
+.info-reseñas p{
+    /* border:1px solid var(--fire); */
+        margin:10px;
+        font-size: 16px;
+        text-align: center;
+        max-width: 80%;
+}
+
+/*------------ Reseña-Container -----------*/
+.card-revision{
+        align-items: center;
+        /* height: calc(15vh, 300px) */
+        height: calc(max(200px, 15vh));
+}
+.card-revision img{
+        /* border:1px solid var(--fire); */
+        max-width: 200px;
+        max-height: 250px;
+        border-radius: 30% 20%;
+}
+.card-info-reseña .comment {
+        font-size: 10px;
+        margin:10px;
+}
+
+/*============  CONTACTO ============*/
+section#contacto{
+    /* max-width: var(--max-width); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+}
+
+/*------------ Contacto-Title -----------*/
+.contact-title {
+        margin: 20px 0;
+        text-transform: uppercase;
+        font-weight: 900;
+}
+
+/*------------ contacto-Info -----------*/
+.contact-info{
+        max-width: 80vw;
+        background-color: var(--secondary);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+}
+
+.contact-info-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.contact-info-social{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin: 30px 0 10px;
+}
+
+.contact-info-title h2 {
+        font-weight: 500;
+        margin: 0px 0 10px;
+}
+
+.info-social-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        font-size: 0.70rem;
+}
+
+.info-social-card i {
+        font-size: 2rem;
+        margin: 10px 0;
+        padding: 10px 0;
+}
+
+.info-social-card h3 {
+        font-size: 1.25rem;
+        margin: 10px 0 10px;
+    /* border: 1px solid var(--electric) */
+}
+.info-social-card p{
+    /* border: 1px solid var(--fire); */
+        text-align: center;
+        justify-content: center;
+        font-size: 0.75rem;
+}
+
+/* --------- Formulario ------------- */
+#form{
+        max-width: var(--max-width);
+        background-color: var(--secondary);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+        gap:20px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px var(--focus);
+    /* border:1px solid greenyellow; */
+}
+
+/* ------ Formulario Title -------*/
+.form-title{
+        margin: 30px 0;
+        text-transform: uppercase;
+        font-weight: 900;
+    /* border:1px solid greenyellow;  */
+}
+
+/* ----- Formulario container ---- */
+.input-form-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        justify-items: center;
+        padding: 25px
+    /* border:1px solid orange;  */
+}
+
+.input-form-container input{
+        width: 25vw;
+        border-radius: 10px;
+        height:50px;
+        text-align: center;
+}
+
+.input-form-container input:focus,
+.form-consulta textarea {
+        border-color: var(--focus);
+        box-shadow: 0 0 20px var(--focus);
+}
+
+/* ----- Formulario consulta ---- */
+form-consulta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:20px;
+        gap: 20px
+    /* border: 1px solid orange; */
+}
+
+.form-consulta textarea {
+        width: 50vw;
+        height: 10vh;
+        border-radius: 10px;
+}
+
+.form-consulta input {
+        padding: 10px 30px;
+        border-radius: 20px;
+        border: 2px solid var(--focus);
+        background: transparent;
+        color: var(--focus);
+        font-size: 1rem;
+        font-weight: 700
+}
+.form-consulta input:hover{
+        background: var(--focus);
+        color: var(--secondary)
+}
+
+#form {
+        gap: 5px;
+}
+
+/* -----------------------------*\ 
+|*------------Footer------------*| 
+\*------------------------------*/
+.footer{
+    /* max-width: var(--max-width); */
+        background-color: var(--secondary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        gap:15px;
+        bottom: 0;
+        font-size: 0.80rem;
+}
+
+/* ------ Footer social ------- */
+
+.footer-social-links {
+    /* border: 1px solid greenyellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction:column;
+        gap:10px;
+}
+
+.footer-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:40px;
+        margin-top: 20px;
+}
+
+.footer-social i { 
+        color: var(--text-gray);
+        font-size: 1.5rem;
+        border: 2px solid var(--text-gray);
+        padding: 5px;
+        border-radius: 50%;
+        background: transparent;
+}
+
+.footer-social i:hover{   
+        color: var(--electric);
+        border: 2px solid var(--electric);
+        font-size: 1.75rem;
+}
+
+.footer-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:40px;
+}
+
+.footer-links a {
+        color: var(--text-gray)
+}
+
+.footer-links a:hover {
+        color: var(--electric);
+        font-size: 1rem;
+}
+
+footer p{
+        color:var(--text-gray);
+        margin-bottom: 10px;
+}
+}
