@@ -334,7 +334,7 @@ header{
         width: 200px;
     }
     .card-revision img{
-        border:1px solid var(--fire);
+        /* border:1px solid var(--fire); */
         width: clamp(200px, 65%, 500px);
         padding:10px 10px;
         margin:10px 10px;
@@ -456,7 +456,7 @@ header{
         font-weight: 700;
     }
     #form{
-        max-width: var(--max-width);
+        width: min(80vw, 570px);
         background-color: var(--secondary);
         display: flex;
         flex-direction: column;
