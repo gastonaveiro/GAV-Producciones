@@ -1,23 +1,48 @@
 /* @media(320px <= width <=576px) { */
-@media(max-width: 576px) {
+@media(max-width: 575px) {
     /* -----------------------------*\ 
     |*------------Header------------*| 
     \*------------------------------*/
     /* Seccion Header */
 header{
-        display:none;
-}
-
+    background: linear-gradient(#121e3c, var(--backgrond));
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px ;
+    height: 40px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px rgba(227,228,237, 0.37);
+    border:2px solid rgba(255,255,255, 0.18);
+    position:sticky;
+    width:100%;
+    top:0;
+    }
+.logo{
+    /* border: 1px solid crimson; */
+    height: 80%;
+    transition:0.5
+        }
+/*------------ Navbar -----------*/
 .navbar{
-        display:none;
-}
-
-
+    border: 1px solid crimson;
+    /* width: auto; */
+        }
+.navbar-list,
+.navbar-list a{
+    /* border: 1px solid crimson; */
+    font-size: 10px;
+    justify-content: space-between;
+    align-items:center;
+    gap:10px;
+    transition: 0.5s;
+    }
+.menu-toogle {
+    display: none;
+    }
     /* -----------------------------*\ 
     |*-------------Main-------------*| 
     \*------------------------------*/
-    main {
-        display: flex;
+    body, main {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -57,7 +82,10 @@ header{
         justify-content: center;
         align-items: center;
         text-align: center;
-        /* border: 1px solid orangered; */
+        background: linear-gradient(to top,#30cfd0,#c43ad6);
+        color:transparent;
+        background-clip:text;
+        /* sborder: 1px solid orangered; */
     }
     .hero-info p {
         /* border: 1px solid orangered; */
@@ -237,12 +265,11 @@ header{
     /*============  EQUIPO ============*/
     section#equipo {
         /* border: 1px solid var(--fire); */
-        max-width: 80%;
+        max-width: 90%;
         display:flex;
         justify-content: center;
         text-align: center;
         align-items: center;
-        gap:5px;
         margin-bottom: 10px;
         width:80vw;
     }
@@ -268,13 +295,13 @@ header{
         justify-content: center;
     }
     .equipo-info p {
-    /* border: 1px solid var(--fire); */
+        /* border: 1px solid var(--fire); */
         display:flex;
         align-items: center;
         text-align: center;
         font-size: 1rem;
-        padding:10px;
-        margin:10px;
+        padding:10px 5px 10px;
+        margin:5px;
     }
 
 /*============  RESEÑAS ============*/
@@ -318,7 +345,9 @@ header{
     .card-revision{
         /* border:1px solid var(--fire); */
         display:flex;
-        width: 80vw;
+        width: 8
+        
+        0vw;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -331,7 +360,7 @@ header{
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 200px;
+        width:80vw;
     }
     .card-revision img{
         /* border:1px solid var(--fire); */
@@ -365,9 +394,9 @@ header{
         /* border:1px solid var(--fire); */
         display:flex;
         justify-content: center;
-        text-align: center;
         align-items: center;
-        font-size: 1rem;
+        font-size: 18px;
+        text-align: center;
     }
 
 /*============  CONTACTO ============*/
@@ -478,9 +507,9 @@ header{
     /* -----------------------------*\ 
     |*------------Footer------------*| 
     \*------------------------------*/
-    .footer {
+    .footer { 
         display: none;
     }
-}
+
 
 

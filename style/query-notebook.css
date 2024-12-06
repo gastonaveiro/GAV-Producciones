@@ -2,16 +2,27 @@
 /* -----------------------------*\ 
 |*------------Header------------*| 
 \*------------------------------*/
-@media (992px <= width <=1200px) {
-        header {
-        display:none;
+@media (992px < width <=1200px) {
+        header{
+        background: linear-gradient(#121e3c, var(--backgrond));
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px ;
+        height: 80px;
+        width: 100%;
+        backdrop-filter: blur(30px);
+        box-shadow: 0 0 30px rgba(227,228,237, 0.37);
+        border:2px solid rgba(255,255,255, 0.18);
+        position:sticky;
+    /* position:fixed; */
+        /* border: 1px solid crimson; */
 }
 
 /* -----------------------------*\ 
 |*-------------Main-------------*| 
 \*------------------------------*/
 main {
-        display: flex;
         gap:70px;
 }
 
@@ -28,6 +39,10 @@ section#hero {
         justify-content: center;
         align-items: center;
 }
+.hero-info h1{
+        max-width: 400px;
+        font-size: 1.25rem;
+}
 
 /*------------ Hero-card -----------*/
 .hero-card {
@@ -35,7 +50,6 @@ section#hero {
         width:80%;
         border-radius: 20px;
 }
-
 
 /*============  SERVICE ============*/
 
@@ -296,7 +310,7 @@ section#equipo {
         /* border:1px solid var(--fire); */
         display:flex;
         justify-content: center;
-        text-align: center;
+        text-align: justify;
         align-items: center;
         font-size: 0.75rem;
 }
@@ -438,4 +452,6 @@ footer p{
         margin-bottom: 10px;
 }
 }
+
+
 

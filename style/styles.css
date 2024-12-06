@@ -43,16 +43,19 @@
 /* Header */
 header{
    /* background:  #000000; */
-    background: var(--secondary);
+    /* background: var(--secondary); */
+    background: linear-gradient(#121e3c, var(--backgrond));
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px ;
     height: 80px;
+    width: 100%;
     backdrop-filter: blur(30px);
     box-shadow: 0 0 30px rgba(227,228,237, 0.37);
     border:2px solid rgba(255,255,255, 0.18);
     position:sticky;
+    /* position:fixed; */
     top:0;
     /*border: 1px solid yellow;*/
 }
@@ -77,12 +80,16 @@ header{
 }
 
 .logo{
+    /* border:1px solid crimson; */
     height: 75%;
     transition: 0.5s;
 }
 
 .logo:hover{
     height: 85%;
+}
+.menu-toogle{
+    /* border: 1px solid crimson; */
 }
 
 .navbar{
@@ -92,10 +99,6 @@ header{
 .navbar-list{
     gap:25px;
     /*background: crimson;*/
-}
-
-.menu-toogle{
-    /* display:none; */
 }
 
 .navbar-list a {
@@ -117,20 +120,23 @@ body{
 }
 
 main{
+    /* border: 3px solid crimson; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap:50px;
     color:var(--text-white);
 }
 
 /*---- Hero ---- */
 section#hero{
+    /* border:1px solid crimson; */
     display:flex;
     justify-content: center;
     align-items: center;
     padding: 70px 0 30px;
-    height: 65vh;
+    height: 60vh;
     gap:20px;
     width: 1200px;
 }
@@ -145,6 +151,7 @@ section#hero{
 }
 
 .hero-info h1{
+    /* border:1px solid crimson; */
     font-size: 30px;
     font-weight:800;
     color:var(--text-white);
@@ -183,6 +190,8 @@ section#hero{
 }
 
 
+
+
 /*----------------------------------------------------*/
 /*================= SECCION SERVICE =================*/
 /*--------------------------------------------------*/
@@ -194,7 +203,7 @@ section#service{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    gap:80px;
+    gap:60px;
     /*border:1px solid orange;*/
 }
 
@@ -268,6 +277,7 @@ section#portfolio{
     /* border: 1px solid crimson; */
 }
 .portfolio-items-container{
+    /* border: 1px solid crimson; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -292,6 +302,7 @@ section#portfolio{
 }
 
 .portfolio-filter button{
+    /* border:1px solid crimson; */
     text-transform: uppercase;
     /* margin-top:20px;
     outline: none; */
@@ -512,7 +523,6 @@ section#reseñas, .info-reseñas{
 .card-info-reseña .comment{
     margin:20px;
     font-size: 14px;
-    text-align: justify;
     max-width: 80%;
     color: var(--text-card);
 }
