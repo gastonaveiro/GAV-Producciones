@@ -47,6 +47,10 @@ header{
     gap:20px;
     transition: 0.5s;
 }
+#menu-toogle{
+    /* border: 1px solid crimson; */
+    display: none;
+}
 .menu-label{
     /* border:1px solid crimson; */
     display:flex;
@@ -635,3 +639,4 @@ footer p{
     margin-bottom: 10px;
     }
 }
+
