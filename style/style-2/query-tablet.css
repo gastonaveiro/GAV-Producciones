@@ -262,10 +262,10 @@ section#portfolio{
     }
 .portfolio-item img {
     /* border: 1px solid crimson; */
-    max-width:60%;
-    padding:5px;
-    margin:0 auto;
-    border-radius: 25px;
+    width: 90px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: contain;
     }
 .portfolio-info h4 {
     /* border: 1px solid crimson; */
