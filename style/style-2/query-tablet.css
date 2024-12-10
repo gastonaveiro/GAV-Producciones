@@ -4,11 +4,14 @@
 \*------------------------------*/
 header{
     /* border: 1px solid crimson; */
-    /* display:none; */
-    position: fixed;
-    width: 1200px;
+    display:flex;
     justify-content: space-between;
-    text-align: center;
+    position: sticky;
+    width:100%;
+    align-items: center;
+    text-align:center;
+    padding: 10 10px ;
+    height: 80px;
     }
 .logo {
     /* border: 1px solid crimson; */
@@ -20,7 +23,6 @@ header{
 /* ---------- Navbar ---------- */
 .navbar {
     /* border: 1px solid crimson; */
-    width:75%;
     gap:30px;
     }
 .navbar-list{
@@ -42,15 +44,13 @@ header{
 .navbar-list a{
     /* border: 1px solid crimson; */
     font-size: 1.2rem;
-    justify-content: center;
-    align-items:center;
     gap:20px;
     transition: 0.5s;
 }
 .menu-label{
     /* border:1px solid crimson; */
     display:flex;
-    justify-content: space-between;
+    justify-content:end;
     order:2;
 }
 .menu-label img{
@@ -60,6 +60,7 @@ header{
 }
 /* --- LA MAGIA --- */
 #menu-toogle:checked + .navbar-list {
+    /* border:1px solid crimson; */
     display:flex;
 }
 
