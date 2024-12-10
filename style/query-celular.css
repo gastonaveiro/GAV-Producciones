@@ -1,112 +1,52 @@
-/* @media(320px <= width <=576px) { */
 @media(max-width: 575px) {
-    /* -----------------------------*\ 
-    |*------------Header------------*| 
-    \*------------------------------*/
-    /* Seccion Header */
-header{
-    background: linear-gradient(#121e3c, var(--backgrond));
-    justify-content: space-between;
+/*============  HERO ============*/
+/*------------ Hero-card -----------*/
+section#hero {
+    flex-direction: column-reverse;
+    justify-content: center;
     align-items: center;
-    padding: 0 30px ;
-    height: 40px;
-    backdrop-filter: blur(30px);
-    box-shadow: 0 0 30px rgba(227,228,237, 0.37);
-    border:2px solid rgba(255,255,255, 0.18);
-    position:sticky;
-    width:100%;
-    top:0;
+    text-align: center;
+    width: 350px;
+    min-height: max-content;
+    padding: 20px 0 15px;
+    /* border: 1px solid orchid; */
     }
-.logo{
-    /* border: 1px solid crimson; */
-    height: 80%;
-    transition:0.5
-        }
-/*------------ Navbar -----------*/
-.navbar{
-    border: 1px solid crimson;
-    /* width: auto; */
-        }
-.navbar-list,
-.navbar-list a{
-    /* border: 1px solid crimson; */
-    font-size: 10px;
-    justify-content: space-between;
-    align-items:center;
-    gap:10px;
-    transition: 0.5s;
+.hero-info{
+    color: var(--bg-white);
+    gap: 15px;
+    width: 70%; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
     }
-.menu-toogle {
-    display: none;
+.hero-info h1{
+    font-size: 1rem;
+    text-align: center;
+    background: linear-gradient(to top,#30cfd0,#c43ad6);
+    color:transparent;
+    background-clip:text;
     }
-    /* -----------------------------*\ 
-    |*-------------Main-------------*| 
-    \*------------------------------*/
-    body, main {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap:5px;
+.hero-info p {
+    /* border: 1px solid orangered; */
+    font-size: 0.70rem;
+    width: 80%;
     }
-
-    /*============  HERO ============*/
-    /*------------ Hero-card -----------*/
-    section#hero {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        max-width: 80%;
-        width: 350px;
-        min-height: max-content;
-        padding: 20px 0 15px;
-        gap:15px;
-        /* border: 1px solid orchid; */
+.hero-img {
+    width:85vw;
+    max-width: 200px;
+    height: 140px;
+    /* border: 1px solid orangered; */
     }
-    .hero-info{
-        color: var(--bg-white);
-        gap: 15px;
-        width: 70%; 
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
-        /* border: 1px solid blue; */
-    }
-    .hero-info h1{
-        font-size: 1.25rem;
-        padding:10px 0;
-        margin:10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        background: linear-gradient(to top,#30cfd0,#c43ad6);
-        color:transparent;
-        background-clip:text;
-        /* sborder: 1px solid orangered; */
-    }
-    .hero-info p {
-        /* border: 1px solid orangered; */
-        font-size: 1rem;
-    }
-    .hero-img {
-        width:85vw;
-        max-width: 200px;
-        height: 140px;
-        /* border: 1px solid orangered; */
-    }
-    .hero-info span{
-        font-weight: 700;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        text-transform: uppercase;
-        color:var(--text-white);
-        font-size:15px;
-        /* border: 1px solid orangered; */
+.hero-info span{
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color:var(--text-white);
+    font-size:12px;
+    /* border: 1px solid orangered; */
     }
 
     /*============  SERVICE ============*/
@@ -510,6 +450,9 @@ header{
     .footer { 
         display: none;
     }
+
+}
+
 
 
 

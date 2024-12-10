@@ -88,9 +88,10 @@ header{
 .logo:hover{
     height: 85%;
 }
-.menu-toogle{
+/* .menu-toogle{ */
+    /* display:none; */
     /* border: 1px solid crimson; */
-}
+
 
 .navbar{
     gap:150px;
@@ -140,7 +141,6 @@ section#hero{
     gap:20px;
     width: 1200px;
 }
-
 .hero-info{
     color: var(--bg-white);
     display:flex;
@@ -149,7 +149,6 @@ section#hero{
     width: 50%;  
     /*border: 1px solid blue;*/
 }
-
 .hero-info h1{
     /* border:1px solid crimson; */
     font-size: 30px;
@@ -188,10 +187,6 @@ section#hero{
 .hero-card img{
     border-radius: 10px;
 }
-
-
-
-
 /*----------------------------------------------------*/
 /*================= SECCION SERVICE =================*/
 /*--------------------------------------------------*/
@@ -232,8 +227,8 @@ section#service{
     border-radius:15px;
     width: 450px;
     box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
--webkit-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
--moz-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
+    -webkit-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
+    -moz-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
 }
 
 .service-cards:hover{
@@ -621,7 +616,6 @@ section#contacto{
     box-shadow: 0 0 20px var(--focus);
     /* border:1px solid greenyellow; */
 }
-
 .form-title{
     margin: 30px 0;
     text-transform: uppercase;
@@ -692,31 +686,31 @@ section#contacto{
 }
     
 #form {
-        gap: 5px;
+    gap: 5px;
     }
 
 .form-title { 
-        margin: 15px;
+    margin: 15px;
     }
     
 .input-form-container {
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
     }
 
 .input-form-container input,
 .form-consulta textarea {
-        width: 75vw;
+    width: 75vw;
     }
 
 .form-consulta textarea {
-        height: 20vh;
+    height: 20vh;
     }
 
 .form-consulta input {
-        font-size: 0.75rem;
-        padding: 10px 20px;
+    font-size: 0.75rem;
+    padding: 10px 20px;
     }
 
 /*---- Footer ---- */
