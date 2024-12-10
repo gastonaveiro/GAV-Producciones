@@ -724,7 +724,7 @@ section#contacto{
     gap:15px;
     bottom: 0;
     font-size: 0.80rem;
-    position:sticky;
+    /* position:sticky; */
 }
 
 .footer-social-links {

@@ -5,17 +5,20 @@
 header{
     /* border: 1px solid crimson; */
     display:flex;
+    position:fixed;
+    width: 100%;
     justify-content: space-between;
-    position: sticky;
-    width:100%;
     align-items: center;
-    text-align:center;
-    padding: 10 10px ;
-    height: 80px;
+    padding: 0 30px;
+    height: 65px;
     }
 .logo {
     /* border: 1px solid crimson; */
-    height: 50%;
+    height: 60px;
+    display:block;
+    float: right;
+    padding: 20px 0 0 20px;
+    text-decoration: none;
     transition: 0.5s;
     }
 /*-------------------------------*/
@@ -25,8 +28,9 @@ header{
     /* border: 1px solid crimson; */
     gap:30px;
     }
+
 .navbar-list{
-    /* border:1px solid crimson; */
+    border:1px solid crimson;
     position:absolute;
     top:65px;
     left:5%;
@@ -83,16 +87,18 @@ section#hero {
     }
 .hero-info{
     /* border:1px solid crimson; */
-    width:90%;
+    width:100%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top:10px;
+    gap:40px;
+    padding-top:100px;
     }
 .hero-info h1{
-    /* border: 1px solid crimson; */
+    /* 
+    border: 1px solid crimson; */
     max-width: 400px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     }
 .hero-info p {
     /* border:1px solid crimson; */
@@ -130,9 +136,6 @@ section#service{
     font-weight: 800;
     padding:10px;
     margin-top: 70px;
-    
-
-
 }
 /*------------ Card-Container -----------*/
 .service-cards-container{
