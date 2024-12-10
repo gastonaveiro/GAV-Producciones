@@ -58,6 +58,10 @@ header{
     width:30px;
     height: 20px;
 }
+/* --- LA MAGIA --- */
+#menu-toogle:checked + .navbar-list {
+    display:flex;
+}
 
 /* -----------------------------*\ 
 |*-------------Main-------------*| 
