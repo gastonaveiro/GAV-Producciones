@@ -538,7 +538,7 @@ section#contacto {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap:30px;
     margin-top: 20px;
     }
 .footer-social i { 
