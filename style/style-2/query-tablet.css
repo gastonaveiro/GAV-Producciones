@@ -393,9 +393,10 @@ section#reseñas{
     }
 .card-revision img{
     /* border:1px solid var(--fire); */
-    width: 200px;
-    max-height: 200px;
-    border-radius: 10% 10%;
+    width: 145px;
+    height: 145px;
+    object-fit: contain;
+    border-radius:25% 20%;
         }
 .card-info-reseña .comment {
     /* border: 1px solid crimson; */
