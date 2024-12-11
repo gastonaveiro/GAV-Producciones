@@ -14,7 +14,7 @@ header{
     }
 .logo {
     /* border: 1px solid crimson; */
-    height: 55%;
+    height: 60%;
     transition: 0.5s;
     }
 /*-------------------------------*/
@@ -95,10 +95,10 @@ section#hero {
     padding-top:100px;
     }
 .hero-info h1{
-    /* 
-    border: 1px solid crimson; */
+    /* border: 1px solid crimson; */
     max-width: 400px;
     font-size: 1.5rem;
+    padding-top: 50px;
     }
 .hero-info p {
     /* border:1px solid crimson; */
