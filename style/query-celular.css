@@ -63,6 +63,10 @@ header {
 #menu-toogle:checked + .navbar-list {
     display:flex;
 }
+/*----- MAIN ---- */ 
+main {
+    gap: 10px;
+}
 /*============  HERO ============*/
 /*------------ Hero-card -----------*/
 section#hero {
