@@ -243,20 +243,25 @@ section#portfolio{
     }
 .portfolio-item img {
     /* border: 1px solid var(--fire); */
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 90%;
-    width: 40vw;
-    padding:10px;
-    margin: 1em;
-    border-radius: 10px;
+    width: 90px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: contain;
     }
 .portfolio-info{
     /* border:1px solid var(--fire); */
     padding:10px;
     margin:10px;
     }
+.portfolio-info h4 {
+    /*border:1px solid crimson; */
+    font-size:15px;
+    margin:10px 5px, 5px;
+    padding:10px, 5px, 5px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .portfolio-info a{
     /* border: 1px solid orangered; */
     display: flex;
@@ -368,12 +373,10 @@ section#reseñas, .info-reseñas{
 .card-revision img{
     /* border:1px solid var(--fire); */
     width: clamp(200px, 65%, 500px);
-    padding:10px 10px;
-    margin:10px 10px;
-    gap:5px;
-    display: flex;
-    justify-content: center;
+    width: 120px;
+    height: 100px;
     border-radius: 20px;
+    object-fit: contain;
     }
 .card-info-name {
     /* border:1px solid var(--fire); */
