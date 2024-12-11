@@ -169,7 +169,7 @@ section#portfolio{
     /* border:1px solid var(--fire); */
     max-width: 70%;
     text-align: center;
-    font-size:1rem;
+    font-size:16px;
     padding:10px;
     margin-bottom: 10px;
     width:80vw;
@@ -179,6 +179,7 @@ section#portfolio{
     display:flex;
     justify-content: center;
     align-items: center;
+    color:var(--text-card);
     padding:10px 15px 10px;
     margin: 15px;
     }
