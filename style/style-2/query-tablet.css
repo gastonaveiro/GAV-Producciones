@@ -64,10 +64,8 @@ header{
 }
 /* --- LA MAGIA --- */
 #menu-toogle:checked + .navbar-list {
-    /* border:1px solid crimson; */
     display:flex;
 }
-
 /* -----------------------------*\ 
 |*-------------Main-------------*| 
 \*------------------------------*/
