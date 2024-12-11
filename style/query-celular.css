@@ -98,9 +98,10 @@ section#hero {
     width: 80%;
     }
 .hero-img {
-    width:85vw;
+    width:100vw;
     max-width: 200px;
     height: 140px;
+    margin-top: 100px;
     /* border: 1px solid orangered; */
     }
 .hero-info span{
@@ -110,7 +111,7 @@ section#hero {
     text-align: center;
     text-transform: uppercase;
     color:var(--text-white);
-    font-size:12px;
+    font-size:14px;
     /* border: 1px solid orangered; */
     }
 /*============  SERVICE ============*/
