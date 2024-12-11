@@ -282,6 +282,11 @@ section#portfolio{
     align-items: center;
     text-align: center;
     }
+.portfolio-info a{
+    /* border:1px solid crimson; */
+    color:var(--text-white);
+    font-size: 14px;
+}
 
 /*============  EQUIPO ============*/
 section#equipo {
