@@ -2,7 +2,7 @@
 /* -----------------------------*\ 
 |*------------Header------------*| 
 \*------------------------------*/
-@media (992px < width <=1200px) {
+@media (993px < width <=1250px) {
         header{
         background: linear-gradient(#121e3c, var(--backgrond));
         display: flex;
