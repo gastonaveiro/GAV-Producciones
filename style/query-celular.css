@@ -556,10 +556,11 @@ section#contacto {
     font-size: 1.75rem;
     }
 .footer-links{
+    /* border:1px solid crimson; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap:15px;
     }
 .footer-links a {
     color: var(--text-gray)
