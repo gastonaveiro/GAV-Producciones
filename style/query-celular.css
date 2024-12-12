@@ -4,7 +4,7 @@ header {
     /* border:1px solid crimson; */
     display:flex;
     position:fixed;
-    width: 100%;
+    width: 65%;
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
