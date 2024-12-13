@@ -4,18 +4,18 @@
 \*------------------------------*/
 @media (993px < width ) {
 header{
-  background: linear-gradient(#121e3c, var(--backgrond));
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 30px ;
-  height: 80px;
-  width: 100%;
-  backdrop-filter: blur(30px);
-  box-shadow: 0 0 30px rgba(227,228,237, 0.37);
-  border:2px solid rgba(255,255,255, 0.18);
-  /* position:sticky; */
-  /* position:fixed; */
+    background: linear-gradient(#121e3c, var(--backgrond));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px ;
+    height: 70px;
+    width: 100%;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px rgba(227,228,237, 0.37);
+    border:2px solid rgba(255,255,255, 0.18);
+    position:fixed;
+    top: 0;
   /* border: 1px solid crimson; */
 }
 
@@ -23,97 +23,97 @@ header{
 |*-------------Main-------------*| 
 \*------------------------------*/
 main {
-gap:70px;
+    gap:70px;
 }
 
 /*============  HERO ============*/
 section#hero {
-  display: flex;
-  flex-direction:column;
-  width: 80vw;
-  height: 100vh;
+    display: flex;
+    flex-direction:column;
+    width: 80vw;
+    height: 100vh;
 }
 .hero-info {
-  width: 80vw;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+    width: 80vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero-info h1{
-  max-width: 400px;
-  font-size: 1.25rem;
+    max-width: 400px;
+    font-size: 1.25rem;
 }
 
 /*------------ Hero-card -----------*/
 .hero-card {
   /* display:none; */
-  width:80%;
-  border-radius: 20px;
+    width:80%;
+    border-radius: 20px;
 }
 
 /*============  SERVICE ============*/
 
 section#service{
   /* max-width: var(--max-width); */
-  padding:50px 0;
-  display: flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  gap:80px;
-  /*border:1px solid orange;*/
+    padding:50px 0;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:80px;
+    /*border:1px solid orange;*/
 }
 
 /*------------ service-Title -----------*/
 #service h2 {
-  font-size: 2rem;
-  font-weight: 800;
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 /*------------ Card-Container -----------*/
 .service-cards-container{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 
 .service-cards{
-  background: var(--secondary);
-  padding: 35px 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 25px;
-  border-radius:15px;
-  width: 450px;
-  box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
--webkit-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
--moz-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
+    background: var(--secondary);
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    border-radius:15px;
+    width: 450px;
+    box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
+    -webkit-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
+    -moz-box-shadow: 11px 8px 19px -8px rgba(65,179,245,0.76);
 }
 
 .service-cards:hover{
-  border: 1px solid rgba(65,179,245,0.76);
+    border: 1px solid rgba(65,179,245,0.76);
 }
 
 .service-cards img{
-  width: 50px;
-  border-radius: 40%;
+    width: 50px;
+    border-radius: 40%;
 }
 
 .service-cards h3{
-  font-size: 20px;
-  font-weight: 800;
-  margin:20px;
+    font-size: 20px;
+    font-weight: 800;
+    margin:20px;
 }
 
 .service-cards p{
-  font-size: 16px;
-  font-weight: 300;
-  color:var(--text-card);
+    font-size: 16px;
+    font-weight: 300;
+    color:var(--text-card);
 }
 
 
@@ -123,17 +123,17 @@ section#service{
 .section-title{
   /* border:1px solid var(--fire); */
   /* max-width: var(--max-width); */
-  justify-content: center;
+    justify-content: center;
 }
 
 .main-title{
-  flex: 0 0 100%;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-  font-size: 2rem;
-  font-weight: 800;
-  color:var(--text-white);
+    flex: 0 0 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 800;
+    color:var(--text-white);
 }
 
 .text p{
