@@ -3,15 +3,15 @@
 |*------------Header------------*| 
 \*------------------------------*/
 @media (993px < width <=1250px) {
-        header{
-        background: linear-gradient(#121e3c, var(--backgrond));
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 30px ;
-        height: 80px;
-        width: 100%;
-        backdrop-filter: blur(30px);
+header{
+  background: linear-gradient(#121e3c, var(--backgrond));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px ;
+  height: 80px;
+  width: 100%;
+  backdrop-filter: blur(30px);
         box-shadow: 0 0 30px rgba(227,228,237, 0.37);
         border:2px solid rgba(255,255,255, 0.18);
         position:sticky;
@@ -23,7 +23,7 @@
 |*-------------Main-------------*| 
 \*------------------------------*/
 main {
-        gap:70px;
+gap:70px;
 }
 
 /*============  HERO ============*/
