@@ -2,14 +2,13 @@
 /*------- Header ------ */ 
 header {
     /* border:1px solid crimson; */
-    position:sticky;
+    position:fixed;
     display:flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
     height: 55px;
-    top:0;
 }
 .logo {
     /* border: 1px solid crimson; */
@@ -177,12 +176,12 @@ section#portfolio{
 /*------------ Portfolio-Título -----------*/
 .section-title{
     /* border:1px solid var(--fire); */
-    max-width: 70%;
+    max-width: 90%;
     text-align: center;
     font-size:16px;
     padding:10px;
     margin-bottom: 10px;
-    width:80vw;
+    width:100vw;
     }
 .section-title p{
     /* border: 1px solid orange; */
@@ -283,20 +282,19 @@ section#portfolio{
 /*============  EQUIPO ============*/
 section#equipo {
     /* border: 1px solid var(--fire); */
-    max-width: 90%;
-    display:flex;
+    max-width: 90vw;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    margin-bottom: 10px;
-    width:80vw;
+    display: flex;
+    flex-direction: column;
     }
 .equipo-info {
     /* border: 1px solid var(--fire); */
     display:flex;
-    max-width: 80%;
+    width: 800px;
+    max-width: 100%;
     align-items: center;
-    gap:5px
+    gap:3px
     }
 .equipo-info h2{
     /* border:1px solid var(--fire); */
@@ -307,10 +305,12 @@ section#equipo {
     }
 .equipo-info img {
     /* border: 1px solid var(--fire); */
-    max-width: 75%;
-    width: 80vw;
-    display:flex;
-    justify-content: center;
+    width: clamp(200px, 75%, 570px);
+    height: 250px;
+    width:90vw;
+    margin-top: 10px;
+    /* border: 1px solid orangered; */
+    object-fit: contain;
     }
 .equipo-info p {
     /* border: 1px solid var(--fire); */
