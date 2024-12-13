@@ -93,7 +93,6 @@ header{
     /* display:none; */
     /* border: 1px solid crimson; */
 
-
 .navbar{
     gap:150px;
 }
@@ -118,6 +117,7 @@ header{
 
 /*---- Main ---- */ 
 body{
+    max-width: 1200px;
     background:var(--backgrond);
 }
 
