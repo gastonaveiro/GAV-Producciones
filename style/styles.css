@@ -488,8 +488,12 @@ section#reseñas, .info-reseñas{
     border-radius: 25px;
     margin:20px;
 }
+.card-info-name{
+    text-align: center;
+    align-items: center;
+}
 
-.card-info-reseña{
+.-recard-infoseña{
     display: flex;
     flex-direction: column;
     justify-content: center;

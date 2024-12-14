@@ -414,13 +414,64 @@ section#equipo {
     /* border:1px solid var(--fire); */
     display:flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    max-width: 90%;
+    width: 1000px;
+    max-width: 100%;
     border-radius: 20px;
     padding:20px;
     margin:20px;
-    gap:20px;
+    gap:10px;
+}
+.card-revision img{
+    /* border: 1px solid crimson; */
+    width: 250px;
+    height: 150px;
+    border-radius: 35px;
+    object-fit: contain;
+}
+.card-info-name{
+    font-size: 18px;
+    text-align: center;
+}
+
+.-recard-infoseña{
+    /* border: 1px solid crimson; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40vw;
+    /* border:1px solid var(--fire); */
+}
+
+.card-info-reseña h3{
+    /* border:1px solid crimson; */
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.card-info-job{
+    color:var(--text-white);
+    text-align: center;
+    font-size: 16px;
+    gap:10px;
+}
+
+.card-info-job span{
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    color:var(--text-white);
+}
+
+.card-info-reseña .comment{
+    /* border:1px solid crimson; */
+    margin:20px;
+    font-size: 16px;
+    max-width: 90%;
+    text-align: center;
+    color: var(--text-card);
 }
 
 /*============  CONTACTO ============*/
@@ -448,7 +499,7 @@ section#contacto{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-        border-radius: 20px;
+    border-radius: 20px;
 }
 
 .contact-info-title{
@@ -480,6 +531,118 @@ section#contacto{
     width: 200px;
     font-size: 0.70rem;
 }
+/* ------------------------------------ */
+/* ---- Formulario ---- */
+#form{
+    max-width: var(--max-width);
+    width: 90vh;
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    gap:20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--focus);
+    /* border:1px solid greenyellow; */
+}
+.form-title{
+    margin: 30px 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* border:1px solid greenyellow;  */
+}
+
+.input-form-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-items: center;
+    padding: 25px
+    /* border:1px solid orange;  */
+}
+
+.input-form-container input{
+    /* border:3px solid orangered; */
+    max-width: 50vh;
+    width: 300px;
+    border-radius: 10px;
+    height:40px;
+    text-align: center;
+}
+
+.input-form-container input:focus,
+.form-consulta textarea {
+    /* border:2px solid rgb(153, 0, 255); */
+    border-color: var(--focus);
+    box-shadow: 0 0 20px var(--focus);
+}
+
+.form-consulta{
+    /* border:1px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 25%;
+    padding:20px;
+    gap: 20px
+}
+
+.form-consulta textarea {
+    /* border: 3px solid blueviolet; */
+    max-width: 50vh;
+    width: 800px;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.form-consulta input {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid var(--focus);
+    background: transparent;
+    color: var(--focus);
+    font-size: 1rem;
+    font-weight: 700
+}
+
+.form-consulta input:hover{
+    background: var(--focus);
+    color: var(--secondary)
+}
+    
+#form {
+    gap: 5px;
+    }
+
+.form-title { 
+    margin: 15px;
+    }
+    
+.input-form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    }
+
+.input-form-container input,
+.form-consulta textarea {
+    width: 75vw;
+    }
+
+.form-consulta textarea {
+    height: 20vh;
+    }
+
+.form-consulta input {
+    font-size: 0.75rem;
+    padding: 10px 20px;
+    }
 
 /* -----------------------------*\ 
 |*------------Footer------------*| 
@@ -488,7 +651,6 @@ footer p{
     color:var(--text-gray);
     margin-bottom: 10px;
 }
-
 /* ------ Footer social ------- */
 
 .footer-social-links {
