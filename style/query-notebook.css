@@ -328,14 +328,14 @@ section#equipo {
 }
 
 .equipo-info h2{
-    /*border:1px solid orange;*/
+    /* border:1px solid orange; */
     max-width: 1200px;
     justify-content: center;
     text-align: center;
     align-items: center;
     padding: 20px;
     font-size: 2rem;
-    font-weight: 800;
+    font-weight: 600;
     color:var(--text-white);
 }
 .equipo-info img{
@@ -360,7 +360,7 @@ section#equipo {
     max-width: 80%;
     text-align: center;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 600;
     color:var(--text-gray);
 }
 
@@ -507,6 +507,8 @@ section#contacto{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin:10px;
+    padding:10px;
 }
 
 .contact-info-social{
