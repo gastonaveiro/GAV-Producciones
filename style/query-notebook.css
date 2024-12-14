@@ -50,6 +50,9 @@ header{
 /* .menu-toogle{ */
     /* display:none; */
     /* border: 1px solid crimson; */
+.menu-label {
+    display:none;
+}
 
 .navbar{
     gap:150px;
@@ -82,25 +85,29 @@ header{
 |*-------------Main-------------*| 
 \*------------------------------*/
 main {
-    gap:70px;
+    gap:10px;
 }
 
 /*============  HERO ============*/
 section#hero {
+    /* border: 1px solid crimson; */
     display: flex;
-    flex-direction:column;
+    /* flex-direction:column; */
     width: 80vw;
-    height: 100vh;
+    height: 70vh;
 }
 .hero-info {
+    /* border: 1px solid crimson; */
     width: 80vw;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 .hero-info h1{
+    /* border: 1px solid crimson; */
     max-width: 400px;
-    font-size: 1.25rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 /*------------ Hero-card -----------*/
