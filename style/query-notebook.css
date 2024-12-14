@@ -541,7 +541,7 @@ section#contacto{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
+    margin-top: 70px;
     gap:20px;
     border-radius: 20px;
     box-shadow: 0 0 20px var(--focus);
