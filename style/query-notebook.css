@@ -80,7 +80,6 @@ header{
     font-size: 1.2rem;
 }
 
-
 /* -----------------------------*\ 
 |*-------------Main-------------*| 
 \*------------------------------*/
@@ -278,6 +277,35 @@ section#service{
     justify-items: center;
   /* border:1px solid orange; */  
 }
+.portfolio-item img{
+    /* border: 1px solid crimson; */
+    width: 350px;
+    height: 150px;
+    border-radius: 25px;
+    object-fit: contain;
+}
+.portfolio-info h4 {
+    /* border: 1px solid crimson; */
+    font-size:15px;
+    margin:10px 5px, 5px;
+    padding:10px, 5px, 5px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+.portfolio-info p {
+    /* border: 1px solid crimson; */
+    font-size: 15px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+.portfolio-info a{
+    /* border:1px solid crimson; */
+    color:var(--text-white);
+    font-size: 15px;
+}
 
 /*============  EQUIPO ============*/
 section#equipo {
@@ -332,6 +360,7 @@ section#equipo {
     max-width: 80%;
     text-align: center;
     font-size: 18px;
+    font-weight: 900;
     color:var(--text-gray);
 }
 
