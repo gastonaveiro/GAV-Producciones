@@ -183,10 +183,7 @@ section#service{
     font-weight: 300;
     color:var(--text-card);
 }
-
-
 /*============  PORTFOLIO ============*/
-
 /*------------ Portfolio-Title -----------*/
 .section-title{
   /* border:1px solid var(--fire); */
@@ -711,6 +708,4 @@ footer p{
     color:var(--text-gray);
     margin-bottom: 10px;
 }
-
-
 }

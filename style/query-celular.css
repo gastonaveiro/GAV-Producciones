@@ -360,7 +360,7 @@ section#reseñas, .info-reseñas{
 .card-revision{
     /* border:1px solid var(--fire); */
     display:flex;
-    width: 300px;
+    width: 80vw;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -371,9 +371,10 @@ section#reseñas, .info-reseñas{
 .card-info-reseña{
     /* border:1px solid var(--fire); */
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width:80vw;
+    max-width:80%;
     }
 .card-revision img{
     /* border:1px solid var(--fire); */
