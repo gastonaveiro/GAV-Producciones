@@ -390,11 +390,15 @@ section#reseñas{
     }
 .card-revision{
     /* border: 1px solid crimson; */
-    align-items: center;
+    display:flex;
     justify-content: center;
-    text-align: center;
-    width: 80vw;
-    max-width: 650px;
+    align-items: center;
+    width: 970px;
+    max-width: 80%;
+    border-radius: 20px;
+    padding:10px;
+    margin:10px;
+    gap:10px;
     }
 .card-revision img{
     /* border:1px solid var(--fire); */
