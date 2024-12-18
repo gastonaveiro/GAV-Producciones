@@ -6,7 +6,7 @@ header{
     /* border: 1px solid crimson; */
     display:flex;
     position:fixed;
-    width: 75%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
@@ -402,8 +402,8 @@ section#reseñas{
     }
 .card-revision img{
     /* border:1px solid var(--fire); */
-    width: 145px;
-    height: 145px;
+    width: 90px;
+    height: 120px;
     object-fit: contain;
     border-radius:25% 20%;
         }
@@ -517,7 +517,7 @@ section#contacto{
     border-radius: 20px;
     box-shadow: 0 0 20px var(--focus);
     gap:5px;
-    margin-top: 10px;
+    margin-top: 30px;
     /* border:1px solid greenyellow; */
     }
 /* ------ Formulario Title -------*/
